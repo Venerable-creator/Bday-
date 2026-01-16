@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, Mpilo!</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+
+      background-image: url("Kat.png");
+      background-size: contain; /* ensures whole image fits */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: #fff; /* shows behind image if empty space */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: HotPink;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 6px #00000080;
+    }
+
+    a.button {
+      padding: 18px 36px;
+      font-size: 26px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.65);
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 32px; }
+      a.button { font-size: 20px; padding: 12px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Happy Birthday, Mpilo! 🎂</h1>
+  <a href="Finalising.html" class="button">Open Your Birthday Message ✨</a>
+</body>
+</html>
